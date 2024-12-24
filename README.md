@@ -30,12 +30,12 @@ Berdasarkan laporan **evaluasi model klasifikasi** dan **Confusion Matrix**, per
 Namun, perlu diingat bahwa **hasil sempurna ini mungkin terjadi karena** jumlah dataset yang digunakan relatif **sedikit** dan **serupa**, yang dapat membuat model lebih mudah dalam mengenali pola dan menghasilkan prediksi yang benar. Dengan dataset yang terbatas dan kurang beragam, model mungkin memiliki kecenderungan untuk memberikan hasil yang lebih baik, tetapi ini juga berarti model tersebut belum diuji pada variasi data yang lebih luas.<br><br>
 Ke depannya, kami berharap dapat **menambahkan lebih banyak data** yang beragam dan representatif untuk memperkaya model. Dengan dataset yang lebih besar dan beragam, diharapkan model ini dapat diuji pada situasi yang lebih nyata dan memberikan hasil evaluasi yang **lebih konsisten dan terpercaya**. Dengan cara ini, model diharapkan mampu menangani berbagai jenis data dengan akurasi yang tetap tinggi, dan lebih siap untuk diterapkan dalam kondisi dunia nyata yang lebih kompleks.
 ## Testing 
-![Overview Banner!](https://github.com/IlhamDioPutra/UAS_DEEP-LEARNING/blob/main/Result/Confusion%20Matrix.png)<br/>
-Secara keseluruhan, hasil prediksi model sudah menunjukkan kinerja yang baik, dengan akurasi keseluruhan mencapai 87%. Meskipun demikian, masih terdapat beberapa kesalahan 
-dalam prediksi,yang terlihat dari variasi performa antar kelas
-# Analisa Model
-Model yang kami gunakan **MobileNetV2** termasuk dalam kategori **deep learning** karena menggunakan arsitektur jaringan saraf dalam (deep neural network) yang terdiri dari 
-banyak lapisan untuk memproses data. Berbeda dengan shallow learning, yang biasanya hanya melibatkan satu atau beberapa lapisan sederhana dalam model, MobileNetV2 dirancang 
-untuk menangani data yang lebih kompleks dengan cara yang lebih efisien.
-# Referensi :mag_right:
-1. [Link Youtube :point_left:](https://www.youtube.com/watch?v=Ax6P93r32KU)
+![Overview Banner!](https://github.com/IlhamDioPutra/UAS_DEEP-LEARNING/blob/main/Result/Testing.png)<br/>
+Secara keseluruhan, hasil prediksi model sudah menunjukkan kinerja yang sangat baik, dimana hasil prediksi semuanya benar dan confidence mencapai 99%.
+# Kesimpulan
+Model dari ___pre-trained EfficientNetV2B3___  yang telah dilatih menunjukkan hasil yang sangat baik dan sangat bagus untuk di implementasikan:
+- **Accuracy Training**  (**93.94%**).
+- **Accuracy Validation**  (**100%**).
+- **Loss Training**  (**0.2400**).
+- **Loss Validation**   (**0.0214**).
+
