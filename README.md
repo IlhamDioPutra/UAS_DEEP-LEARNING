@@ -15,7 +15,7 @@ Dataset yang kami gunakan berupa sampel dari 7 gedung belajar yang ada di univer
 # Hasil dan Pembahasan 
 ## Grafik Evaluasi Model 
 ### Grafik Training dan Validation Accuracy
-![Overview Banner!](https://github.com/IlhamDioPutra/UAS_DEEP-LEARNING/blob/main/Result/Accuracy.pngg)<br/>
+![Overview Banner!](https://github.com/IlhamDioPutra/UAS_DEEP-LEARNING/blob/main/Result/Accuracy.png)<br/>
 ### Grafik Training dan Validation Loss
 ![Overview Banner!](https://github.com/IlhamDioPutra/UAS_DEEP-LEARNING/blob/main/Result/Loss.png)<br/>
 Berdasarkan hasil evaluasi model yang ditunjukkan oleh dua grafik utama, yaitu **Training and Validation Accuracy** serta **Training and Validation Loss**, dapat disimpulkan bahwa model ini menunjukkan **kinerja yang sangat baik** baik pada tahap pelatihan (training) maupun validasi (validation).
@@ -27,13 +27,13 @@ Meskipun demikian, ada kemungkinan bahwa **callback** yang lebih tinggi dapat me
 ### Confusion Matrix
 ![Overview Banner!](https://github.com/IlhamDioPutra/UAS_DEEP-LEARNING/blob/main/Result/Confusion%20Matrix.png)<br/>
 Berdasarkan laporan **evaluasi model klasifikasi** dan **Confusion Matrix**, performa model menunjukkan **akurasi sempurna** yaitu **100%** pada tahap **Validation**. Hal ini menunjukkan bahwa model berhasil melakukan **prediksi yang sangat akurat** pada setiap sampel data yang diberikan, dengan tidak ada kesalahan prediksi sama sekali.
-Namun, perlu diingat bahwa **hasil sempurna ini mungkin terjadi karena** jumlah dataset yang digunakan relatif **sedikit** dan **serupa**, yang dapat membuat model lebih mudah dalam mengenali pola dan menghasilkan prediksi yang benar. Dengan dataset yang terbatas dan kurang beragam, model mungkin memiliki kecenderungan untuk memberikan hasil yang lebih baik, tetapi ini juga berarti model tersebut belum diuji pada variasi data yang lebih luas.<br>
+Namun, perlu diingat bahwa **hasil sempurna ini mungkin terjadi karena** jumlah dataset yang digunakan relatif **sedikit** dan **serupa**, yang dapat membuat model lebih mudah dalam mengenali pola dan menghasilkan prediksi yang benar. Dengan dataset yang terbatas dan kurang beragam, model mungkin memiliki kecenderungan untuk memberikan hasil yang lebih baik, tetapi ini juga berarti model tersebut belum diuji pada variasi data yang lebih luas.<br><br>
 Ke depannya, kami berharap dapat **menambahkan lebih banyak data** yang beragam dan representatif untuk memperkaya model. Dengan dataset yang lebih besar dan beragam, diharapkan model ini dapat diuji pada situasi yang lebih nyata dan memberikan hasil evaluasi yang **lebih konsisten dan terpercaya**. Dengan cara ini, model diharapkan mampu menangani berbagai jenis data dengan akurasi yang tetap tinggi, dan lebih siap untuk diterapkan dalam kondisi dunia nyata yang lebih kompleks.
 ## Testing 
 ![Overview Banner!](https://github.com/IlhamDioPutra/UAS_DEEP-LEARNING/blob/main/Result/Confusion%20Matrix.png)<br/>
 Secara keseluruhan, hasil prediksi model sudah menunjukkan kinerja yang baik, dengan akurasi keseluruhan mencapai 87%. Meskipun demikian, masih terdapat beberapa kesalahan 
 dalam prediksi,yang terlihat dari variasi performa antar kelas
-# Analisa Model :book:
+# Analisa Model
 Model yang kami gunakan **MobileNetV2** termasuk dalam kategori **deep learning** karena menggunakan arsitektur jaringan saraf dalam (deep neural network) yang terdiri dari 
 banyak lapisan untuk memproses data. Berbeda dengan shallow learning, yang biasanya hanya melibatkan satu atau beberapa lapisan sederhana dalam model, MobileNetV2 dirancang 
 untuk menangani data yang lebih kompleks dengan cara yang lebih efisien.
